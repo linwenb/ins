@@ -1,0 +1,62 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"  >
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:orientation="vertical" >
+        
+	    <TextView
+	        android:text="TextView01" 
+			android:id="@+id/TextView01" 
+	        android:layout_width="wrap_content" 
+	        android:layout_height="wrap_content">
+	    </TextView>
+	          
+	    <TextView 
+	        android:text="TextView02" 
+			android:id="@+id/TextView02" 
+	        android:layout_width="wrap_content" 
+	        android:layout_height="wrap_content">
+	    </TextView>
+	          
+	    <TextView 
+	        android:text="TextView03" 
+	        android:id="@+id/TextView03" 
+	        android:layout_width="wrap_content" 
+	        android:layout_height="wrap_content">
+	    </TextView>
+	          
+	    <TextView 
+	        android:text="TextView04" 
+	        android:id="@+id/TextView04" 
+	        android:layout_width="wrap_content" 
+	        android:layout_height="wrap_content">
+		</TextView>
+	          
+	    <TextView 
+	        android:text="TextView05" 
+	        android:id="@+id/TextView05" 
+	        android:layout_width="wrap_content" 
+	        android:layout_height="wrap_content">
+	    </TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/layout">
+
+		<ImageView 
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:id="@+id/output"/>
+           
+	</LinearLayout>
+	
+</LinearLayout>

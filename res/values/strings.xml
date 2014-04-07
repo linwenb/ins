@@ -1,0 +1,10 @@
+<resources>
+
+    <string name="app_name">INS</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">INS</string>
+    <string name="button_send">Click me to begin</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_manager">Manager</string>
+
+</resources>
